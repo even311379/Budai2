@@ -8,6 +8,8 @@ from layouts import map_layout, env_layout,\
 from setup_app import app
 import callbacks
 
+server = app.server
+
 app.layout = html.Div([
     html.H1('布袋鹽田濕地生態調查資料視覺化', className='page-title'),
     dbc.Container([
@@ -27,4 +29,4 @@ app.layout = html.Div([
 ])
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
