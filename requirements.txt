@@ -1,0 +1,7 @@
+dash
+pandas
+xlrd
+dash_bootstrap_components
+squarify
+palettable
+dash_table
