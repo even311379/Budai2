@@ -5,7 +5,7 @@ import dash_bootstrap_components as dbc
 from layouts import map_layout, env_layout,\
  birds_layout, fish_layout, polychaeta_layout, zooplankton_layout, explain_layout
 
-from app import app
+from setup_app import app
 import callbacks
 
 app.layout = html.Div([
